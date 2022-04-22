@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+
+body {
+  background-color: #141519;
+  font-size: 1.2rem;
+  font-family: 'Overpass';
+}
+
+
+#rate, #thanks {
+  width: 30rem;
+  height: 30rem;
+  margin: auto;
+  margin-top: 13%;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(#212730, #171E28);
+  color: hsl(216, 12%, 54%);
+  border-radius: 40px;
+}
+
+#rate img, #rate h1, #rate p {
+  margin-left: 8%;
+  margin-right: 10%;
+}
+
+#rate img {
+  width: 1.3rem;
+  height: 1.3rem;
+  padding: 4%;
+  margin-top: 7%;
+  margin-bottom: 4%;
+  background-color: #262F38;
+  border-radius: 50%;
+}
+
+#rate h1 {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 0;
+}
+
+#rate ul {
+  margin-top: 2%;
+  margin-right: 5%;
+  margin-left: -2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.rating {
+  width: 4.0rem;
+  height: 4.0rem;
+  font-family: 'Overpass';
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: hsl(216, 12%, 54%);
+  background-color: #262F38;
+  border: 2px #1F2630 solid;
+  padding: 10px;
+  border-radius: 50%;
+}
+.rating:hover {
+  border: 2px hsl(216, 12%, 54%) solid;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+.rating:focus {
+  border: 2px hsl(25, 97%, 53%) solid;
+  background-color: hsl(216, 12%, 54%);
+  color: hsl(0, 0%, 100%);
+}
+
+#submit {
+  margin-top: 3%;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-bottom: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border: 2px hsl(25, 97%, 53%) solid;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-family: 'Overpass';
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+}
+#submit:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+
+#thanks {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#thanks img {
+  margin-top: 12%;
+}
+
+#selection {
+  margin-top: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: hsl(25, 97%, 53%);
+  background-color: #262F38;
+  border-radius: 50px;
+}
+
+#thanks h1 {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 0;
+}
+
+#thanks p {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+footer {
+  margin-top: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+footer a {
+  color: hsl(216, 12%, 54%);
+}
+
+
+@media all and (max-width: 1024px) {
+
+}
