@@ -2,20 +2,16 @@
 
 
 body {
-  width: 1440px;
   background-color: #141519;
   font-size: 1.2rem;
   font-family: 'Overpass';
-  display: flex;
-  flex-direction: column;
 }
 
 
 #rate, #thanks {
   width: 30rem;
   height: 30rem;
-  margin-left: 41%;
-  margin-right: auto;
+  margin: auto;
   margin-top: 13%;
   display: flex;
   flex-direction: column;
@@ -130,8 +126,7 @@ body {
 }
 
 footer {
-  margin-top: 6%;
-  margin-left: 14%;
+  margin-top: 20%;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -144,12 +139,5 @@ footer a {
 @media all and (max-width: 1024px) {
     body {
       width: auto;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    footer {
-      width: 72%;
-      margin-left: 40%;
     }
 }
