@@ -141,6 +141,9 @@ footer a {
       width: 375px;
       height: 100vh;
       font-size: 0.8rem;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
     }
 
     #rate, #thanks {
