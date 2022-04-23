@@ -17,7 +17,7 @@ body {
   flex-direction: column;
   background: linear-gradient(#212730, #171E28);
   color: hsl(216, 12%, 54%);
-  border-radius: 40px;
+  border-radius: 1.5rem;
 }
 
 #rate img, #rate h1, #rate p {
@@ -138,6 +138,46 @@ footer a {
 
 @media all and (max-width: 1024px) {
     body {
-      width: auto;
+      width: 375px;
+      height: 100vh;
+      font-size: 0.8rem;
+    }
+
+    #rate, #thanks {
+      width: 330px;
+      height: 340px;
+    }
+
+    #rate img {
+      width: 0.9rem;
+      height: 0.9rem;
+      margin-bottom: 0;
+    }
+
+    #rate p {
+      margin-right: 8%;
+    }
+
+    #rate ul {
+      margin-top: 7%;
+      margin-left: -6%;
+      margin-right: 4%;
+    }
+
+    .rating {
+      width: 2.7rem;
+      height: 2.7rem;
+    }
+
+    footer {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 17%;
+    }
+
+    footer p {
+      margin-left: 7%;
+      margin-top: 0;
+      margin-bottom: 0;
     }
 }
